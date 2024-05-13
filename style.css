@@ -3,18 +3,30 @@ body {
 }
 
 .header {
-
+    padding: 0 90px;
 }
 
-.trueheader {
+.headerandlinks {
+    margin: 0;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
-    margin: 0;
     display: flex;
-    flex-direction: row;
     gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
 }
