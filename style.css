@@ -4,13 +4,17 @@ body {
 }
 
 .header {
-    padding: 0 90px;
+    padding: 0 300px 100px 300px;
     background-color: #1f2937;
     color: white;
 }
 
+.left {
+    
+}
+
 .right {
-    flex-grow: 2;
+    
 }
 
 #logo {
@@ -33,15 +37,16 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 500px;
     height: 300px;
 }
 
 .headerandlinks {
-    margin: 0;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 ul {
@@ -61,7 +66,7 @@ a {
 .headercontent {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 button {
